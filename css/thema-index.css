@@ -1,0 +1,73 @@
+/* homepage van www.Go4Comedy.be */
+body {
+    background-color: lightsalmon;
+  } 
+
+hr.purper_3 {
+    border-top: 5px solid purple;
+  }
+
+h1 {
+    color: purple;
+    text-align: center;
+	padding: 0,5cm; 
+  }
+  
+h5 {
+    color: purple;
+    background-color: black;
+    text-align: center;
+	padding: 0,5cm; 
+  }
+
+
+div.item1 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: yellow;
+  flex: 0 1 100px;
+}
+
+div.item3 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: green;
+  flex: 0 1 100px;
+}
+
+div.item4 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: tomato;
+  flex: 0 1 100px;
+}
+
+div.item5 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: magenta;
+  flex: 0 1 100px;
+}
+
+div.item6 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: lightslategray;
+  flex: 0 1 100px;
+}
+
+footer.mijnvoet {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25;
+  color: darkgreen;
+  text-align: center;
+  padding: 3px;
+  background-color: darkred;
+  }
+
+  
