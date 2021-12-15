@@ -1,0 +1,128 @@
+/* homepage van www.Go4Comedy.be */
+ body {
+    background-color: lightsalmon;
+  } 
+h2 {
+    color: purple;
+    text-align: center;
+	padding: 0,5cm; 
+  }
+hr.purper_3 {
+    border-top: 4px solid purple;
+  }
+
+nav {
+	display: inline-flexbox;
+	position: relative;
+	top: 0;
+	background-color: rgb(230, 93, 47);
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+	text-align: center;
+	
+}
+nav a:hover {
+	background-color: paleturquoise;
+	color: black;
+}
+  
+li.handigelinker {
+	display: table;
+	width:200px;
+	float:center;
+	margin-left:3px;
+	border:2px solid #000;
+	padding: 5;
+	
+}		
+
+ol.handigelinkss {
+	display: table;
+	width:200px;
+	padding: 5;
+}
+
+ul {
+	background-color: rgb(230, 93, 47) ;
+}
+
+li {
+	display:block;
+	width:125px;
+	float:left;
+	margin-left:1px;
+	border:1px solid #000;
+	color: tomato;
+	background-color: rgb(230, 93, 47) ;
+}
+
+.navbar {
+    background: #0069AA;
+    margin: 0;
+    border: 0;
+}
+
+a.handigelinks {
+	width:200px;
+	border: none;
+} 
+ 
+a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color: rgb(230, 93, 47);
+	color:purple;
+	border:1px solid #000;
+}	
+
+a:hover {
+	background-color:#009;
+	color:#fff;
+}
+
+p.vraaginterview {
+    background-color: darkseagreen;
+  } 
+
+.content {
+	display: flex;
+}
+.content2 {
+	padding: 20px;
+	margin: auto;
+}
+.content3 {
+	display: flex;
+	padding: 10px;
+	margin: auto;
+}
+left1 {
+	flex: 35%;
+	padding: 20px;
+}
+center1 {
+	flex: 30%;
+	padding: 20px;
+}
+right1 {
+	flex: 35%;
+	padding: 20px;
+}
+left2 {
+	flex: 40%;
+	padding: 20px;
+}
+center2 {
+	flex: 60%;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	.content, nav {
+		flex-direction: column;
+}
+
