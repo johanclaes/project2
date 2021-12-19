@@ -1,3 +1,5 @@
-johan 
+#h1# Dit is een titel
 
-test test
+dit is documentatie van mijn eerste statische website
+
+#h2#  dit is 2de titel
