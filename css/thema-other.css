@@ -100,26 +100,19 @@ p.vraaginterview {
 	padding: 10px;
 	margin: auto;
 }
-left1 {
-	flex: 35%;
+
+main {
+	flex: 70%;
 	padding: 20px;
+	margin-right: 5px;
 }
-center1 {
+aside {
 	flex: 30%;
 	padding: 20px;
+	
 }
-right1 {
-	flex: 35%;
-	padding: 20px;
-}
-left2 {
-	flex: 40%;
-	padding: 20px;
-}
-center2 {
-	flex: 60%;
-	padding: 20px;
-}
+
+
 
 @media only screen and (max-width: 600px) {
 	.content, nav {
